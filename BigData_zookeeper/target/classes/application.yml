@@ -1,0 +1,16 @@
+server:
+  port: 9023 #提供者的端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: zookeeper-service
+  main:
+    allow-bean-definition-overriding: true
+
+zookeeper:
+  address: namenode001:2181,datanode001:2181,datanode002:2181
+  timeout: 4000
