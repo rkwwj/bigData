@@ -1,0 +1,14 @@
+hbase:
+ zookeeper:
+  quorum: namenode001,datanode001,datanode002
+  port: 2181
+  property:
+   clientPort: 2181
+  client:
+    keyvalue:
+      maxsize: 1572864000
+  znode:
+  parent: /hbase
+zookeeper:
+ znode:
+  parent: /hbase
