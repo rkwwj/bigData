@@ -83,5 +83,6 @@
     <module>BigData_Mapreduce</module>
     <module>BigData_zookeeper</module>
     <module>BigData_Hbase</module>
+    <module>BigData_Spark</module>
   </modules>
 </project>

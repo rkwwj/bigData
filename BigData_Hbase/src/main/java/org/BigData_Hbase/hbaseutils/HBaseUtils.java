@@ -75,6 +75,7 @@ public class HBaseUtils {
 				put.addColumn(family.getBytes(), entry.getKey().getBytes(), entry.getValue().getBytes());
 			}
 			table.put(put);
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
